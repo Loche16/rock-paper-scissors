@@ -22,7 +22,7 @@ console.log(computerChoice)
 
 let y;
 function getHumanChoice(){
- y= prompt("Choose rock, paper, scissors.").toLowerCase()
+ y= prompt("Choose rock, paper, scissors.").toLowerCase()//makes the prompt case insensitive
 if (y==="rock"){
     return "rock" ;
 }
